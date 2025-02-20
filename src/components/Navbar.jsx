@@ -14,7 +14,7 @@ import  account  from "../assets/user.png";
 const Navbar = () => {
   return (
     <div className="w-full">
-      <div className="nav-top px-3 py-3 xl:p-0 relative xl:w-full flex justify-between items-center xl:border-b-2 xl:pb-4">
+      <div className="nav-top font-hanuman px-3 py-3 xl:p-0 relative xl:w-full flex justify-between items-center xl:border-b-2 xl:pb-4">
         <div className="top-left w-full xl:w-[550px] xl:relative flex xl:justify-start items-center gap-2">
           <a href="#">
             <img
@@ -23,10 +23,10 @@ const Navbar = () => {
               alt="logo"
             />
           </a>
-          <h1 className="xl:text-2xl  select-none font-bold italic w-[120px] text-primary">
+          <h1 className="xl:text-2xl font-hanuman  select-none font-bold italic w-[120px] text-primary">
             សៀវភៅចំណេះដឹង
           </h1>
-          <div className="search absolute xl:left-60 xl:top-[36px] top-[70px] flex xl:justify-end justify-center items-center xl:w-[300px] w-[90%]">
+          <div className="search font-hanuman absolute xl:left-60 xl:top-[36px] top-[70px] flex xl:justify-end justify-center items-center xl:w-[300px] w-[90%]">
             <input
               className="w-full outline-none border-2 border-slate-500 px-2 py-3 xl:px-5 xl:py-1 placeholder:select-none"
               type="text"
@@ -78,7 +78,7 @@ const Navbar = () => {
         </div>
       </div>
       {/*  navbar bottom  */}
-      <div className="nav-bottom xl:w-full xl:border-b-2 hidden xl:flex justify-between items-center">
+      <div className="nav-bottom font-hanuman xl:w-full xl:border-b-2 hidden xl:flex justify-between items-center">
         <div className="navleft w-[400px] flex justify-start items-center gap-6 py-2">
           <div className="explore flex select-none cursor-pointer justify-center items-center gap-2">
             <FontAwesomeIcon icon={faBook}></FontAwesomeIcon>

@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 
-*{
+/* *{
    @apply font-hanuman
-}
+} */
 
 /* Default pagination bullets */
 .swiper-pagination-bullet {
@@ -22,6 +22,4 @@
   height: 14px;
 }
 
-/* .swiper-pagination{
-   top: -200px;
-} */
+

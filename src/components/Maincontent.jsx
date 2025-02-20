@@ -28,7 +28,7 @@ const Maincontent = () => {
     <div className="xl:flex xl:pt-4 bg-[#F8F8F8] xl:gap-4 xl:relative xl:select-none">
       {/*  Desktop  */}
       <div className="Author-list hidden xl:block  xl:border xl:w-[23%]  bg-white">
-        <div className="Author-title xl:bg-[var(--color-dark)] xl:flex xl:p-3 xl:px-4 xl:justify-between xl:border-b-2">
+        <div className="Author-title font-hanuman xl:bg-[var(--color-dark)] xl:flex xl:p-3 xl:px-4 xl:justify-between xl:border-b-2">
           <p>អ្នកនិពន្ធ</p>
           <p className="xl:cursor-pointer xl:flex xl:gap-1">
             មើលទាំងអស់
