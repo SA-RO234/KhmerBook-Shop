@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "img": "./src/assets/ads/Book-1.png",
+    "title": "ឥទ្ធិពល",
+    "link": "",
+    "price": "៣៦០០"
+  },
+  {
+    "id": 2,
+    "img": "./src/assets/ads/Book-2.png",
+    "title": "ឥទ្ធិពល",
+    "link": "",
+    "price": "៣៦០០"
+  },
+  {
+    "id": 3,
+    "img": "./src/assets/ads/Book-2.png",
+    "title": "ឥទ្ធិពល",
+    "link": "",
+    "price": "៣៦០០"
+  }
+]
