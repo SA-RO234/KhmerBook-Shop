@@ -48,7 +48,7 @@ const Navbar = () => {
           </a>
         </div>
         <div className="flex gap-[50px] items-center">
-          <div className="account">
+          <div className="account xl:inline-block hidden">
             <a
               href="#"
               className="flex items-center  font-bokor gap-2 justify-center"

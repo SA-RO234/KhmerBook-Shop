@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./Maincontent.css";
 import Authorlist from "./Author/AuthorList";
 import Carousel from "./Carousel";
+import account from "../assets/user.png";
 
 const Maincontent = () => {
   const [BookProduct, setBookProduct] = useState([]);
@@ -41,10 +42,16 @@ const Maincontent = () => {
       </div>
 
       {/* Mobile */}
-      <div className="mobile-overlay xl:hidden w-full h-full top-0 bg-black opacity-75 absolute"></div>
+      <div className="mobile-overlay  xl:hidden w-full h-full  top-0 bg-black opacity-75 absolute"></div>
       <div className="Author-list xl:hidden  top-0 py-[15px] absolute w-[70%] h-full border-2  bg-white ">
-        <div className="Author-title px-6 flex justify-between pb-5 ">
-          <p className="text-[25px]">អ្នកនិពន្ធ</p>
+        <div className="account xl:hidden inline-block pb-[20px] border-b-2 w-full pl-[10px]">
+              <a href="#" className="flex items-center  font-bokor gap-2 justify-start">
+                      <img className="w-[50px] h-[50px]" src={account} alt="account" />
+                      <span className="font-poppins text-[20px]">Sun Rosa</span>
+                    </a>
+           </div>
+        <div className="Author-title px-6 flex justify-between pb-5 pt-[20px]">
+          <p className="text-[25px] font-hanuman">អ្នកនិពន្ធ</p>
         </div>
         <Authorlist BookProduct={BookProduct} />
       </div>
