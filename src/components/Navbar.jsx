@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import logo from "../assets/logo.webp";
 import English from "../assets/flag/english.png";
 import { faSearch } from "@fortawesome/free-solid-svg-icons/faSearch";
@@ -8,10 +8,12 @@ import { faBook } from "@fortawesome/free-solid-svg-icons/faBook";
 import { faBullhorn } from "@fortawesome/free-solid-svg-icons";
 import { faClipboardCheck } from "@fortawesome/free-solid-svg-icons";
 import { faBell } from "@fortawesome/free-solid-svg-icons";
-import { faBars } from "@fortawesome/free-solid-svg-icons/faBars";
-import { faCircleUser } from "@fortawesome/free-regular-svg-icons/faCircleUser";
-import  account  from "../assets/user.png";
+
+import account from "../assets/user.png";
+import Menu from "./Menu";
+
 const Navbar = () => {
+
   return (
     <div className="w-full">
       <div className="nav-top font-hanuman px-3 py-3 xl:p-0 relative xl:w-full flex justify-between items-center xl:border-b-2 xl:pb-4">
@@ -62,20 +64,12 @@ const Navbar = () => {
             <span className="font-normal select-none">ទំនិញ</span>
             <span
               className="qty absolute w-[20px] h-[20px] bg-red-700 rounded-full flex justify-center items-center top-[-10px] right-[-10px] text-white"
-              id="qty"
-            >
+              id="qty">
               0
             </span>
           </div>
         </div>
-        <div className="menu xl:hidden">
-          <button type="button">
-            <FontAwesomeIcon
-              icon={faBars}
-              className="text-[35px]"
-            ></FontAwesomeIcon>
-          </button>
-        </div>
+        <Menu  />  
       </div>
       {/*  navbar bottom  */}
       <div className="nav-bottom font-hanuman xl:w-full xl:border-b-2 hidden xl:flex justify-between items-center">
